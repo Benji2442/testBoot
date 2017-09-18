@@ -1,0 +1,84 @@
+/*styles*/
+html, p, h1, h2, h3, h4, h5
+	font-family: 'Roboto', sans-serif
+
+body
+	font-family: 'Roboto', sans-serif
+	font-size: 1.2rem
+	font-weight: 200
+	text-align: center
+
+
+#full
+	background-image: url("../../img/clarence.jpg")
+	background-repeat: no-repeat
+	background-position: center
+	background-size: cover
+	height: 100%
+	width: auto
+	padding: 15px 0 30px 0
+
+
+.navbar-brand
+	font-size: 2.8rem
+	transition: 0.70s
+	-webkit-transition: 0.70s
+	-moz-transition: 0.70s
+	-ms-transition: 0.70s
+	-o-transition: 0.70s
+	&:hover
+		transition: 0.30s
+		-webkit-transition: 0.30s
+		-moz-transition: 0.30s
+		-ms-transition: 0.30s
+		-o-transition: 0.30s
+		-webkit-transform: rotate(20deg)
+		-moz-transform: rotate(20deg)
+		-o-transform: rotate(20deg)
+		-ms-transform: rotate(20deg)
+		transform: rotate(20deg)
+		transition-timing-function: ease-in-out
+
+.li-main
+	border-right: #fff solid 1px
+	&:last-child
+		border: none
+
+#main
+	margin-top: 10%
+	-webkit-box-shadow: 0px 13px 34px -9px rgba(0,0,0,0.85)
+	-moz-box-shadow: 0px 13px 34px -9px rgba(0,0,0,0.85)
+	box-shadow: 0px 13px 34px -9px rgba(0,0,0,0.85)
+
+#arrow
+	font-size: 2rem
+	font-weight: 200
+	text-align: center
+	color: #fff
+	margin-top: 20px
+
+
+
+	// Medium devices (tablets, less than 992px)
+@media (max-width: 991px)
+	.navbar-nav>li
+		margin: 0 auto
+	//to center nav items in mobile view
+
+	#main
+		width: 90%
+
+h1
+	font-family: 'Roboto', sans-serif
+	color: #fff
+	font-weight: 500
+	font-size: 2rem
+	letter-spacing: 10px
+
+#main
+	font-family: 'Roboto', sans-serif
+	list-style: none
+	padding: 20px 15px
+	border: 5px solid white
+	color: #fff
+	text-align: center
