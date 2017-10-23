@@ -204,7 +204,7 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  height: 100%;
+  height: 100vh;
   width: auto;
   padding: 15px 0 30px 0; }
 
@@ -267,6 +267,49 @@ h1 {
   color: #fff;
   text-align: center; }
 
-/* casey styles */
+/* portfolio styles */
+#portfolio h1 {
+  color: #000; }
+
+.album {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  background-color: #f7f7f7; }
+
+.imgWrapper {
+  height: 280px;
+  width: 100%;
+  display: block; }
+  .imgWrapper img {
+    position: relative;
+    top: 50%;
+    transform: translatey(-50%); }
+
+.card {
+  float: left;
+  padding: 0.75rem;
+  margin-bottom: 2rem;
+  border: 0; }
+
+.card > img {
+  margin-bottom: 0.75rem; }
+
+.card-text {
+  font-size: 85%; }
+
+/* STICKY FOOTER STYLES */
+.page-wrap {
+  min-height: calc(100vh - 100px); }
+
+.site-footer {
+  height: 100px;
+  background-color: #1d1d1d;
+  color: #FFF;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .site-footer a {
+    color: #FFF; }
 
 /*# sourceMappingURL=app.css.map */
