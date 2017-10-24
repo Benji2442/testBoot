@@ -297,6 +297,15 @@ h1 {
 .card-text {
   font-size: 85%; }
 
+@media (max-width: 575px) {
+  .card {
+    height: 100%; }
+
+  .imgWrapper img {
+    max-height: 250px; } }
+@media (max-width: 991px) {
+  .imgWrapper img {
+    max-height: 200px; } }
 /* STICKY FOOTER STYLES */
 .page-wrap {
   min-height: calc(100vh - 100px); }
